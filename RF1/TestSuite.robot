@@ -10,7 +10,6 @@ Login User with Password
     Connect to Server
     Login User            ironman    1234567890
     Verify Valid Login    Tony Stark
-    name_of_the_function    ${var1}    ${var2}
     [Teardown]    Close Server Connection
 
 Denied Login with Wrong Password

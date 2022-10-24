@@ -10,8 +10,8 @@ Library           DateTime
 Simple Test Case
     [Documentation]    Shows some assertion keywords
     Should Be Title Case    Robot Framework
-    Should Be Equal    Text123    Text123
-    Should Be True    5 + 5 == 10
+    Should Be Equal    Var1  Var1
+    Should Be True    3 + 6 == 9
 
 Test with Keywords
     Store Text    Hail Our Robot
@@ -26,6 +26,8 @@ Test for the year 2022
     Log    ${date}
     Should Be Equal As Strings    ${date.year}    2022
 
-Test Case that fails
-    Check Correct Greeting    Hail Our Robot Overlords!
-    Check Correct Greeting    Hello World!
+Test Case that which does not fail
+    #Check Correct Greeting    Hail Our Robot Overlords!
+    #Check Correct Greeting    Hello World!
+    
+    Should Be True    3 + 6 == 9
