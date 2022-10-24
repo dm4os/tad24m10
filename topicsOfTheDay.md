@@ -44,3 +44,24 @@
 13. Verified file system. 
 
 14. Example of BDD and ATDD. Under -> rf_bdd_atdd.md
+
+15. RF structure
+    Keep control of the indentation. 
+    function passing 1 or two arguments/variables values
+    This work -> <name of the function><TWO spaces><va1><TWO spaces><var2>
+    This work -> <name_of_the_function><TWO spaces><va1><TWO spaces><var2> 
+    This do NOT work -> <name of the function><ONE space><va1><TWO spaces><var2>
+    It will call a function <name of the function va1>
+    This do NOT work -> <name_of_the_function><TWO spaces><va1><ONE space><var2> 
+a. Robot main file script <file name>.robot containing 
+
+*** Settings ***
+Resource          keywords.resource
+
+*** Test Cases ***
+TC 1
+function to be called 
+function_to_be_called 
+
+TC 2
+another function to be called
