@@ -37,3 +37,5 @@
 11. Cloned and started to be familiarized with the git structure and basic commands.
 
 12. Stress importance of pulling repositories before stating to code. 
+
+13. Verified file system. 
