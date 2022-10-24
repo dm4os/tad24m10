@@ -26,7 +26,7 @@ Test for the year 2022
     Log    ${date}
     Should Be Equal As Strings    ${date.year}    2022
 
-Test Case that which does not fail
+Test Case which does not fail
     #Check Correct Greeting    Hail Our Robot Overlords!
     #Check Correct Greeting    Hello World!
     
